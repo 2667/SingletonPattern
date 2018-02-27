@@ -32,9 +32,9 @@ static Singleton *_sharedSingleton = nil;
     if ([string isKindOfClass:[NSString class]] && [string isEqualToString:STR_SINGLETON]) {
         
         self = [super init];
-        if (self) {
-            
-        }
+//        if (self) {
+//
+//        }
         
         return self;
         
